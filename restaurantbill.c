@@ -5,5 +5,5 @@
 //fifth calculation for total and print total
 #include <stdio.h>
 int main(){
-    
+    float meal,tax,tip,total;
 }
