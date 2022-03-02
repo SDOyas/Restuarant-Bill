@@ -20,4 +20,9 @@ int main(){
     printf("Cost: $%.2f\n",meal);
     printf("Tax: $%.2f\n",(tax/100)*meal);
     printf("Tip: $%.2f\n",(tip/100)*meal);
+
+    total= meal + (tax/100)*meal + (tip/100)*meal;
+    printf("Total: %.2f",total);
+
+    return 0;
 }
