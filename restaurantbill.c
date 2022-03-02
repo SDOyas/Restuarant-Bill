@@ -6,4 +6,13 @@
 #include <stdio.h>
 int main(){
     float meal,tax,tip,total;
+
+    printf("Enter meal cost:");
+    scanf("%f", &meal);
+
+    printf("Enter tax percentage:");
+    scanf("%f", &tax);
+
+    printf("Enter tip percentage:");
+    scanf("%f", &tip);
 }
