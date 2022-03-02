@@ -15,4 +15,9 @@ int main(){
 
     printf("Enter tip percentage:");
     scanf("%f", &tip);
+
+    printf("\n$$$$$Bill$$$$$\n");
+    printf("Cost: $%.2f\n",meal);
+    printf("Tax: $%.2f\n",(tax/100)*meal);
+    printf("Tip: $%.2f\n",(tip/100)*meal);
 }
